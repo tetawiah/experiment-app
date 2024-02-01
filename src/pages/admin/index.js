@@ -2,7 +2,7 @@
 import React from "react";
 import { useAuthContext } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
-function Page() {
+function Index() {
     const { user } = useAuthContext()
     const router = useRouter()
 
@@ -13,4 +13,4 @@ function Page() {
     return (<h1>Only logged in users can view this page</h1>);
 }
 
-export default Page;
+export default Index;
