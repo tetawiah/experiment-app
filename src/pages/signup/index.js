@@ -19,7 +19,7 @@ function Index() {
 
         // else successful
         console.log(result)
-        return router.push("/admin")
+        return router.push("/signin")
     }
     return (<div className="wrapper">
         <div className="form-wrapper">
